@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 23/06/2012 10:38:16 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="pe.edu.upeu.tercero.example.domain.Institution"
+		table="institution">
+		<id name="id" type="java.lang.Long">
+			<column name="id" />
+			<generator class="identity" />
+		</id>
+
+		<property name="url" type="string">
+			<column name="url" length="100" />
+		</property>
+		<property name="nameInstitution" type="string">
+			<column name="nameInstitution" length="60" />
+		</property>
+		<property name="summary" type="string">
+			<column name="summary" length="100" />
+		</property>
+		<property name="description" type="string">
+			<column name="description" length="200" />
+		</property>
+		<property name="address" type="string">
+			<column name="address" length="80" />
+		</property>
+		<property name="phone" type="string">
+			<column name="phone" length="50" />
+		</property>
+	</class>
+</hibernate-mapping>
