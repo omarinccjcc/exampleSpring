@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<project name="maven-antrun-" default="main"  >
-<target name="main">
-  <delete file="C:\Users\Alumnos\Documents\workspace-sts-3.8.3.RELEASE\example\target\classes/pe/edu/upeu/tercero/example/config/database.properties"/>
-  <copy file="deploy/test/database.properties" tofile="C:\Users\Alumnos\Documents\workspace-sts-3.8.3.RELEASE\example\target\classes/pe/edu/upeu/tercero/example/config/database.properties"/>
-</target>
-</project>

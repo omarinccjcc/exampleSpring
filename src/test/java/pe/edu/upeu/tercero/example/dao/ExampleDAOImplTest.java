@@ -15,7 +15,6 @@ import pe.edu.upeu.tercero.example.domain.Institution;
 		"classpath:pe/edu/upeu/tercero/example/config/applicationContext-dao.xml"
 //		"classpath:pe/edu/upeu/smscore/service/config/applicationContext-service.xml"
 		})
-
 public class ExampleDAOImplTest {
 
 	@Autowired
@@ -29,12 +28,12 @@ public class ExampleDAOImplTest {
 		i.setNameInstitution("Universidad Peruana Union");
 		i.setSummary("Univedad con enfoque en valores");
 		
-		exampleDAO.saveInstitution(i);
-		
-		System.out.println(exampleDAO);
 //		exampleDAO.saveInstitution(i);
 		
-//		System.out.println("exampleDAO::: "+exampleDAO.findInstitutionAll());
+//		System.out.println(exampleDAO);
+//		exampleDAO.saveInstitution(i);
+		
+		System.out.println("exampleDAO::: "+exampleDAO.findInstitutionAll());
 //		System.out.println(baseTypeDao.findBaseTypeByTypeCategory("TYPE_INTITUTION").size());
 	}
 	

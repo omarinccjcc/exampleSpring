@@ -5,12 +5,8 @@
 <hibernate-configuration >
 	<session-factory >
 
-<!-- 		<mapping resource="pe/edu/upeu/smscore/domain/Sms.hbm.xml" /> -->
-<!-- 		<mapping resource="pe/edu/upeu/smscore/domain/AccessApp.hbm.xml"  /> -->
-<!-- 		<mapping resource="pe/edu/upeu/smscore/domain/UserSystem.hbm.xml" /> -->
-<!-- 		<mapping resource="pe/edu/upeu/smscore/domain/Departament.hbm.xml" /> -->
-<!-- 		<mapping resource="pe/edu/upeu/smscore/domain/Role.hbm.xml" /> -->
-<!-- 		<mapping resource="pe/edu/upeu/smscore/domain/Campaign.hbm.xml" /> -->
+		<mapping resource="pe/edu/upeu/tercero/example/domain/Institution.hbm.xml" />
+		
 
 	</session-factory>
 

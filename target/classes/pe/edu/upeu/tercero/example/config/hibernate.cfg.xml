@@ -5,7 +5,7 @@
 <hibernate-configuration >
 	<session-factory >
 
-<!-- 		<mapping resource="pe/edu/upeu/tercero/example/domain/Institution.hbm.xml" /> -->
+		<mapping resource="pe/edu/upeu/tercero/example/domain/Institution.hbm.xml" />
 		
 
 	</session-factory>

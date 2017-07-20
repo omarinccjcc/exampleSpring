@@ -1,0 +1,6 @@
+pe/edu/upeu/tercero/example/dao/ExampleDAOImpl.class
+pe/edu/upeu/tercero/example/service/ExampleService.class
+pe/edu/upeu/tercero/example/dao/ExampleDAO.class
+pe/edu/upeu/tercero/example/dao/BaseDAOHibernate.class
+pe/edu/upeu/tercero/example/domain/Institution.class
+pe/edu/upeu/tercero/example/domain/BaseEntity.class

@@ -52,10 +52,9 @@
 		<property name="sessionFactory" ref="sessionFactory" />
 	</bean>
 
-
-<!-- 	<bean id="smsDAO" class="pe.edu.upeu.smscore.dao.SmsDAOImpl"> -->
-<!-- 		<property name="sessionFactory" ref="sessionFactory" /> -->
-<!-- 	</bean> -->
+	<bean id="exampleDAO" class="pe.edu.upeu.tercero.example.dao.ExampleDAOImpl">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
 
 <!-- 	<bean id="securityDAO" class="pe.edu.upeu.smscore.dao.SecurityDAOImpl"> -->
 <!-- 		<property name="sessionFactory" ref="sessionFactory" /> -->
